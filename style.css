@@ -11,6 +11,16 @@ body{
     margin: auto;
 }
 
+.clearfloat {
+    clear:both;
+}
+
+a {
+    color: #008080;
+    text-decoration: none;
+  }
+
+
 #navbar ul {
     list-style: none;
     text-align: right;
@@ -25,16 +35,10 @@ body{
     margin-bottom: 10px;
     margin-top: 15px;
   }
-  
-a {
-    color: #008080;
-    text-decoration: none;
-  }
 
 #welcome-section{
     background-color:#e0ebe8;
-    top:0;
-    min-height: 600px;
+    min-height: 750px;
     background-image: url(img/CatOnPiano.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -52,9 +56,16 @@ a {
 }
 
 #projects {
-  text-decoration: none;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#projects h2 {
   color: #008080;
-  display: inline-block;
-  overflow: hidden;
-  border: 2px solid lightblue;
+  font-size: 30px;
+}
+
+.projectImg {
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
 }
