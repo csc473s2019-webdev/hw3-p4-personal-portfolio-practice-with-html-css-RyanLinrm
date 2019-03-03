@@ -29,7 +29,7 @@ a {
     background-color: #e0ebe8;
   }
   
-#navbar ul li {
+#navbar li {
     display: inline-block;
     margin: 50px;
     margin-bottom: 10px;
@@ -86,13 +86,13 @@ a {
 }
 
 #profile-link ul {
+    padding: 10px;
     list-style: none;
 }
 
-#profile-link ul li {
+#profile-link li {
     font-size: 30px;
     position:relative; 
-    display: inline-block;
     top:100px;
     right:5px;
     margin: 50px;
