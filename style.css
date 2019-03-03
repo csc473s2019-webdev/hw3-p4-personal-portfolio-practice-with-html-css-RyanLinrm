@@ -90,7 +90,7 @@ a {
     list-style: none;
 }
 
-#profile-link li:hover {
+.contactLink:hover {
     color: aqua;
 }
 
