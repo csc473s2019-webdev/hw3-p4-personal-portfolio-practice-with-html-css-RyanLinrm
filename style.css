@@ -90,6 +90,10 @@ a {
     list-style: none;
 }
 
+#profile-link li:hover {
+    color: aqua;
+}
+
 #profile-link li {
     font-size: 30px;
     position:relative; 
