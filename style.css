@@ -56,6 +56,8 @@ a {
 }
 
 #projects {
+    min-height: 550px;
+    padding-top: 3%;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -69,3 +71,31 @@ a {
     padding-top: 5px;
     padding-right: 5px;
 }
+
+#profile-link {
+    background-color:#e0ebe8;
+    min-height: 400px;
+}
+
+#profile-link h1 {
+    color: #000080;
+    font-size: 30px;
+    position:relative; 
+    top:100px;
+    margin: 50px;
+}
+
+#profile-link ul {
+    list-style: none;
+}
+
+#profile-link ul li {
+    font-size: 30px;
+    position:relative; 
+    display: inline-block;
+    top:100px;
+    right:5px;
+    margin: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
