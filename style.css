@@ -3,6 +3,9 @@ body{
     font-size: 16px;
     text-align: center;
     line-height: 1.5em;
+}
+
+*{
     margin: 0;
     padding: 0;
 }
@@ -21,11 +24,14 @@ a {
   }
 
 
+#navbar {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+}
+
 #navbar ul {
     list-style: none;
-    text-align: right;
-    position: fixed;
-    width: 100%;
     background-color: #e0ebe8;
   }
   
@@ -38,7 +44,7 @@ a {
 
 #welcome-section{
     background-color:#e0ebe8;
-    min-height: 750px;
+    min-height: 100vh;
     background-image: url(img/CatOnPiano.png);
     background-repeat: no-repeat;
     background-position: center center;
